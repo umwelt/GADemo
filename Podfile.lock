@@ -1,0 +1,29 @@
+PODS:
+  - Kingfisher (4.10.0)
+  - Siesta (1.4.1):
+    - Siesta/Core (= 1.4.1)
+  - Siesta/Core (1.4.1)
+  - Siesta/UI (1.4.1):
+    - Siesta/Core
+  - SnapKit (4.0.1)
+
+DEPENDENCIES:
+  - Kingfisher (~> 4.0)
+  - Siesta (~> 1.0)
+  - Siesta/UI (~> 1.0)
+  - SnapKit (~> 4.0.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Kingfisher
+    - Siesta
+    - SnapKit
+
+SPEC CHECKSUMS:
+  Kingfisher: 43c4b802d8b5256cf1f4379e9cd10b329be6d3e2
+  Siesta: 867050feecf44d163f83272d9fc21553319c6dc0
+  SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
+
+PODFILE CHECKSUM: a0b8c46841672bc0e2da17ab2137d26d2bd9b66a
+
+COCOAPODS: 1.5.3
