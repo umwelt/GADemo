@@ -639,6 +639,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F00DF24F66C1AA7A2DC511AD /* Pods-GADemo.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BASE_URL = "https://api.themoviedb.org/3";
 				CODE_SIGN_STYLE = Automatic;
@@ -660,6 +661,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5612A45090A18DAF89D21821 /* Pods-GADemo.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BASE_URL = "https://api.themoviedb.org/3";
 				CODE_SIGN_STYLE = Automatic;
@@ -681,7 +683,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 32C5DC0D584826C5ABC8AD37 /* Pods-GADemoTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7GX9WC4VQY;
@@ -703,7 +705,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9D7E6F5934D82DF226F02EA4 /* Pods-GADemoTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7GX9WC4VQY;
