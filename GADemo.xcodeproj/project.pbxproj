@@ -9,12 +9,19 @@
 /* Begin PBXBuildFile section */
 		0EC780D3532887554FB81602 /* Pods_GADemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 875AFDBD59B6A82F680C2408 /* Pods_GADemoTests.framework */; };
 		AC9E2E02039424363C550575 /* Pods_GADemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFA73D1F72AF7BFA261EAD58 /* Pods_GADemo.framework */; };
+		DA41C694219C5A5F00BD88B5 /* AlertPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA41C693219C5A5F00BD88B5 /* AlertPresenter.swift */; };
+		DA41C697219C5BFB00BD88B5 /* SecureWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA41C696219C5BFB00BD88B5 /* SecureWrapper.swift */; };
+		DA6BE6D1219D5882000E24D1 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6BE6D0219D5882000E24D1 /* Data.swift */; };
+		DA6BE6D3219D5896000E24D1 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6BE6D2219D5896000E24D1 /* String.swift */; };
+		DA6BE6D6219D94CF000E24D1 /* ObfuscatorUseExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6BE6D5219D94CF000E24D1 /* ObfuscatorUseExample.swift */; };
+		DA6BE6D9219D9603000E24D1 /* GADemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABB1534215F6D93008B1BE2 /* GADemoTests.swift */; };
+		DA6BE6E2219D96FB000E24D1 /* GADemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6BE6E1219D96FB000E24D1 /* GADemoUITests.swift */; };
+		DA6BE6E9219D9B79000E24D1 /* AlertPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA41C693219C5A5F00BD88B5 /* AlertPresenter.swift */; };
 		DABB1520215F6D91008B1BE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABB151F215F6D91008B1BE2 /* AppDelegate.swift */; };
 		DABB1522215F6D91008B1BE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABB1521215F6D91008B1BE2 /* ViewController.swift */; };
 		DABB1525215F6D91008B1BE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DABB1523215F6D91008B1BE2 /* Main.storyboard */; };
 		DABB1527215F6D93008B1BE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DABB1526215F6D93008B1BE2 /* Assets.xcassets */; };
 		DABB152A215F6D93008B1BE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DABB1528215F6D93008B1BE2 /* LaunchScreen.storyboard */; };
-		DABB1535215F6D93008B1BE2 /* GADemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABB1534215F6D93008B1BE2 /* GADemoTests.swift */; };
 		DABB1542215FF0C3008B1BE2 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABB1541215FF0C3008B1BE2 /* API.swift */; };
 		DABB1548215FF5C1008B1BE2 /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABB1547215FF5C1008B1BE2 /* Navigator.swift */; };
 		DABB154A2160033A008B1BE2 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABB1541215FF0C3008B1BE2 /* API.swift */; };
@@ -39,6 +46,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		DA6BE6E4219D96FB000E24D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DABB1514215F6D91008B1BE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DABB151B215F6D91008B1BE2;
+			remoteInfo = GADemo;
+		};
 		DABB1531215F6D93008B1BE2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DABB1514215F6D91008B1BE2 /* Project object */;
@@ -53,6 +67,14 @@
 		5612A45090A18DAF89D21821 /* Pods-GADemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GADemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GADemo/Pods-GADemo.release.xcconfig"; sourceTree = "<group>"; };
 		875AFDBD59B6A82F680C2408 /* Pods_GADemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GADemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D7E6F5934D82DF226F02EA4 /* Pods-GADemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GADemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GADemoTests/Pods-GADemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		DA41C693219C5A5F00BD88B5 /* AlertPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPresenter.swift; sourceTree = "<group>"; };
+		DA41C696219C5BFB00BD88B5 /* SecureWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureWrapper.swift; sourceTree = "<group>"; };
+		DA6BE6D0219D5882000E24D1 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		DA6BE6D2219D5896000E24D1 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		DA6BE6D5219D94CF000E24D1 /* ObfuscatorUseExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObfuscatorUseExample.swift; sourceTree = "<group>"; };
+		DA6BE6DF219D96FB000E24D1 /* GADemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GADemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA6BE6E1219D96FB000E24D1 /* GADemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GADemoUITests.swift; sourceTree = "<group>"; };
+		DA6BE6E3219D96FB000E24D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DABB151C215F6D91008B1BE2 /* GADemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GADemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DABB151F215F6D91008B1BE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DABB1521215F6D91008B1BE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +103,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		DA6BE6DC219D96FB000E24D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DABB1519215F6D91008B1BE2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -111,11 +140,54 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		DA41C692219C5A3700BD88B5 /* AlertPresenter */ = {
+			isa = PBXGroup;
+			children = (
+				DA41C693219C5A5F00BD88B5 /* AlertPresenter.swift */,
+			);
+			path = AlertPresenter;
+			sourceTree = "<group>";
+		};
+		DA41C695219C5BEB00BD88B5 /* SecureWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				DA41C696219C5BFB00BD88B5 /* SecureWrapper.swift */,
+			);
+			path = SecureWrapper;
+			sourceTree = "<group>";
+		};
+		DA6BE6CF219D5879000E24D1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DA6BE6D0219D5882000E24D1 /* Data.swift */,
+				DA6BE6D2219D5896000E24D1 /* String.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DA6BE6D4219D94BF000E24D1 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				DA6BE6D5219D94CF000E24D1 /* ObfuscatorUseExample.swift */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+		DA6BE6E0219D96FB000E24D1 /* GADemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA6BE6E1219D96FB000E24D1 /* GADemoUITests.swift */,
+				DA6BE6E3219D96FB000E24D1 /* Info.plist */,
+			);
+			path = GADemoUITests;
+			sourceTree = "<group>";
+		};
 		DABB1513215F6D91008B1BE2 = {
 			isa = PBXGroup;
 			children = (
 				DABB151E215F6D91008B1BE2 /* GADemo */,
 				DABB1533215F6D93008B1BE2 /* GADemoTests */,
+				DA6BE6E0219D96FB000E24D1 /* GADemoUITests */,
 				DABB151D215F6D91008B1BE2 /* Products */,
 				7DE452B7B67D178563102734 /* Pods */,
 				EFA8B5A3A24BEFFA2F725DF3 /* Frameworks */,
@@ -127,6 +199,7 @@
 			children = (
 				DABB151C215F6D91008B1BE2 /* GADemo.app */,
 				DABB1530215F6D93008B1BE2 /* GADemoTests.xctest */,
+				DA6BE6DF219D96FB000E24D1 /* GADemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -157,6 +230,10 @@
 		DABB153F215FF0AE008B1BE2 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				DA6BE6D4219D94BF000E24D1 /* Examples */,
+				DA6BE6CF219D5879000E24D1 /* Extensions */,
+				DA41C695219C5BEB00BD88B5 /* SecureWrapper */,
+				DA41C692219C5A3700BD88B5 /* AlertPresenter */,
 				DABB15652160B208008B1BE2 /* Patterns */,
 				DABB154E2160153C008B1BE2 /* Repository */,
 				DABB1549215FF64D008B1BE2 /* DataLayer */,
@@ -274,6 +351,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		DA6BE6DE219D96FB000E24D1 /* GADemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA6BE6E6219D96FB000E24D1 /* Build configuration list for PBXNativeTarget "GADemoUITests" */;
+			buildPhases = (
+				DA6BE6DB219D96FB000E24D1 /* Sources */,
+				DA6BE6DC219D96FB000E24D1 /* Frameworks */,
+				DA6BE6DD219D96FB000E24D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA6BE6E5219D96FB000E24D1 /* PBXTargetDependency */,
+			);
+			name = GADemoUITests;
+			productName = GADemoUITests;
+			productReference = DA6BE6DF219D96FB000E24D1 /* GADemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		DABB151B215F6D91008B1BE2 /* GADemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DABB1539215F6D93008B1BE2 /* Build configuration list for PBXNativeTarget "GADemo" */;
@@ -319,10 +414,14 @@
 		DABB1514215F6D91008B1BE2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1000;
+				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = BMAGH;
 				TargetAttributes = {
+					DA6BE6DE219D96FB000E24D1 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = DABB151B215F6D91008B1BE2;
+					};
 					DABB151B215F6D91008B1BE2 = {
 						CreatedOnToolsVersion = 10.0;
 					};
@@ -347,11 +446,19 @@
 			targets = (
 				DABB151B215F6D91008B1BE2 /* GADemo */,
 				DABB152F215F6D93008B1BE2 /* GADemoTests */,
+				DA6BE6DE219D96FB000E24D1 /* GADemoUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		DA6BE6DD219D96FB000E24D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DABB151A215F6D91008B1BE2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -451,16 +558,28 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		DA6BE6DB219D96FB000E24D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA6BE6E2219D96FB000E24D1 /* GADemoUITests.swift in Sources */,
+				DA6BE6E9219D9B79000E24D1 /* AlertPresenter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DABB1518215F6D91008B1BE2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA6BE6D3219D5896000E24D1 /* String.swift in Sources */,
 				DABB154C21600A77008B1BE2 /* Movies.swift in Sources */,
 				DABB155221601AD1008B1BE2 /* MoviesCollectionViewController.swift in Sources */,
 				DABB155C21609472008B1BE2 /* Dates.swift in Sources */,
+				DA41C697219C5BFB00BD88B5 /* SecureWrapper.swift in Sources */,
 				DABB1522215F6D91008B1BE2 /* ViewController.swift in Sources */,
 				DABB155F2160A3A7008B1BE2 /* MovieDetailViewController.swift in Sources */,
 				DABB1548215FF5C1008B1BE2 /* Navigator.swift in Sources */,
+				DA6BE6D1219D5882000E24D1 /* Data.swift in Sources */,
 				DABB155921609438008B1BE2 /* Movie.swift in Sources */,
 				DABB15682160B21D008B1BE2 /* SearchBar.swift in Sources */,
 				DABB15632160A3B8008B1BE2 /* MovieDetailView.swift in Sources */,
@@ -470,6 +589,8 @@
 				DABB15572160934E008B1BE2 /* MovieCollectionViewCell.swift in Sources */,
 				DABB155021601549008B1BE2 /* Repository.swift in Sources */,
 				DABB155521601AE7008B1BE2 /* MoviesCollectionView.swift in Sources */,
+				DA6BE6D6219D94CF000E24D1 /* ObfuscatorUseExample.swift in Sources */,
+				DA41C694219C5A5F00BD88B5 /* AlertPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,11 +601,11 @@
 				DABB154A2160033A008B1BE2 /* API.swift in Sources */,
 				DABB155D21609472008B1BE2 /* Dates.swift in Sources */,
 				DABB156C2160B22D008B1BE2 /* Throttler.swift in Sources */,
-				DABB1535215F6D93008B1BE2 /* GADemoTests.swift in Sources */,
 				DABB155A21609459008B1BE2 /* Movie.swift in Sources */,
 				DABB15602160A3A7008B1BE2 /* MovieDetailViewController.swift in Sources */,
 				DABB15692160B21D008B1BE2 /* SearchBar.swift in Sources */,
 				DABB154D21600A7F008B1BE2 /* Movies.swift in Sources */,
+				DA6BE6D9219D9603000E24D1 /* GADemoTests.swift in Sources */,
 				DABB15642160A3B8008B1BE2 /* MovieDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -492,6 +613,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		DA6BE6E5219D96FB000E24D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DABB151B215F6D91008B1BE2 /* GADemo */;
+			targetProxy = DA6BE6E4219D96FB000E24D1 /* PBXContainerItemProxy */;
+		};
 		DABB1532215F6D93008B1BE2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = DABB151B215F6D91008B1BE2 /* GADemo */;
@@ -519,6 +645,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		DA6BE6E7219D96FB000E24D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7GX9WC4VQY;
+				INFOPLIST_FILE = GADemoUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bmagh.GADemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GADemo;
+			};
+			name = Debug;
+		};
+		DA6BE6E8219D96FB000E24D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7GX9WC4VQY;
+				INFOPLIST_FILE = GADemoUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bmagh.GADemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GADemo;
+			};
+			name = Release;
+		};
 		DABB1537215F6D93008B1BE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -684,7 +850,7 @@
 			baseConfigurationReference = 32C5DC0D584826C5ABC8AD37 /* Pods-GADemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7GX9WC4VQY;
 				INFOPLIST_FILE = GADemoTests/Info.plist;
@@ -695,6 +861,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = bmagh.me.GADemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GADemo.app/GADemo";
@@ -706,7 +873,7 @@
 			baseConfigurationReference = 9D7E6F5934D82DF226F02EA4 /* Pods-GADemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7GX9WC4VQY;
 				INFOPLIST_FILE = GADemoTests/Info.plist;
@@ -717,6 +884,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = bmagh.me.GADemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GADemo.app/GADemo";
@@ -726,6 +894,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		DA6BE6E6219D96FB000E24D1 /* Build configuration list for PBXNativeTarget "GADemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA6BE6E7219D96FB000E24D1 /* Debug */,
+				DA6BE6E8219D96FB000E24D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		DABB1517215F6D91008B1BE2 /* Build configuration list for PBXProject "GADemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

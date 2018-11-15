@@ -23,7 +23,7 @@ class MoviesCollectionViewController: UIViewController, ResourceObserver {
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Now Playing"
-        
+  
         navigator = GANavigator(navigationController: self.navigationController!)
         
         managedView.collectionView.delegate = self
@@ -37,6 +37,9 @@ class MoviesCollectionViewController: UIViewController, ResourceObserver {
 
         searchable()
         // Do any additional setup after loading the view.
+        
+
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -175,8 +178,8 @@ extension MoviesCollectionViewController: UISearchBarDelegate {
         self.managedView.endEditing(true)
         self.managedView.searchBar.text?.removeAll()
         self.pageNumber = 1
-        self.dataSource.removeAll()
-        self.fetchMoreData()
+        
+        self.configuredAlert()
     }
     
     func searchable() {
@@ -206,6 +209,23 @@ extension MoviesCollectionViewController: UISearchBarDelegate {
                 self.managedView.searchBar.onSearch?(searchText)
             }
         }
+    }
+    
+    func configuredAlert() {
+        
+        let alert = AlertPresenter.init(title: "Restart Search", message: nil, okAction: "ok", cancelAction: "Cancel") { (completed) in
+            switch completed {
+                
+            case .accepted:
+                self.dismiss(animated: true, completion: nil)
+                self.dataSource.removeAll()
+                self.fetchMoreData()
+            case .rejected:
+                self.dismiss(animated: true, completion: nil)
+            }
+        }
+        
+        alert.present(self)
     }
     
 }
